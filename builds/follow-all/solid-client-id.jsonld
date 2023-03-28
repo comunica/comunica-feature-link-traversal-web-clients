@@ -1,0 +1,14 @@
+{
+  "@context": ["https://www.w3.org/ns/solid/oidc-context.jsonld"],
+  "client_id": "https://comunica.github.io/comunica-feature-link-traversal-web-clients/builds/follow-all/solid-client-id.jsonld",
+  "client_name": "Comunica Web Client",
+  "redirect_uris": ["https://comunica.github.io/comunica-feature-link-traversal-web-clients/builds/follow-all/"],
+  "post_logout_redirect_uris": ["https://comunica.github.io/comunica-feature-link-traversal-web-clients/builds/follow-all/"],
+  "client_uri": "https://comunica.github.io/comunica-feature-link-traversal-web-clients/builds/follow-all/",
+  "logo_uri" : "https://comunica.github.io/comunica-feature-link-traversal-web-clients/builds/follow-all/images/logo.svg",
+  "scope" : "openid profile offline_access webid",
+  "grant_types" : ["refresh_token","authorization_code"],
+  "response_types" : ["code"],
+  "default_max_age" : 3600,
+  "require_auth_time" : true
+}
