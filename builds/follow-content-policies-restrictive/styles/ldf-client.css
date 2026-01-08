@@ -14,7 +14,6 @@ html, input, textarea, button, pre {
 
 body {
   max-width: 650px;
-  min-width: fit-content;
   margin: 0 auto;
   padding: 1em 3em;
   background: white;
@@ -217,6 +216,15 @@ textarea {
   resize: vertical;
 }
 
+.error-banner {
+  background-color: #be1622;
+  color: #fff;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .results {
   height: 23.5em;
   font-size: 10pt;
@@ -354,6 +362,10 @@ footer {
 
 .yasqe .CodeMirror-gutters {
   border-top: 1px solid #ddd;
+}
+
+.yasqe .CodeMirror-scroll {
+  padding-bottom: 0;
 }
 
 .results-map {
